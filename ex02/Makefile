@@ -1,11 +1,11 @@
-NAME = span
+NAME = MutantStack
 CXX = c++
 CPPFLAGS = -std=c++98 -Wall -Wextra -Werror
-CPPFLAGS += -pedantic -g3
+# CPPFLAGS += -pedantic -g3
 
 BUILD_DIR = build
 
-SRCS =	main.cpp Span.cpp
+SRCS =	main.cpp
 
 OBJS = $(SRCS:%.cpp=$(BUILD_DIR)/%.o)
 
